@@ -1,6 +1,5 @@
 from matplotlib.pyplot import axis
 import numpy as np
-import scipy
 from math import *
 #类和函数
 class pole:
