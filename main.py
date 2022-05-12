@@ -54,7 +54,7 @@ for p in poles:
     print("k{2}={0:.3f},theta{2}={1:.1f}°".format(p.k,p.theta*180/pi,cnt+1))
     cnt=cnt+1
 F_r=[sqrt(F[0]**2+F[1]**2),atan(F[1]/F[0])*180/pi]
-print("F={0:.3f}，{1:.3f}°".format(F_r[0],F_r[1]))
+print("F={0:.3f},{1:.3f}°".format(F_r[0],F_r[1]))
 #计算
 mat=GenMatrix(poles)
 error=0.02
